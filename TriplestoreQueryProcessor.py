@@ -10,7 +10,7 @@ class TriplestoreQueryProcessor:
         WHERE {{
             ?publication a :Publication ;
                          :hasTitle ?title ;
-                         :hasDate ?date ;
+                         :hasDate ?publicationYear ;
                          :hasAuthor ?author .
             ?author :hasGivenName ?givenName ;
                     :hasFamilyName ?familyName .
